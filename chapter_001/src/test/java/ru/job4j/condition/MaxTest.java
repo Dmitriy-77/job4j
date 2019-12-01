@@ -10,5 +10,6 @@ public class MaxTest {
     public void whenMax1To2Then2() {
         int result = Max.max(1, 2);
         assertThat(result, is(2));
+
     }
 }
