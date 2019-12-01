@@ -24,5 +24,6 @@ public class Calculator {
         div(4,2);
         multiply(2,1);
         subtrack(10,5);
+        subtrack(9,4);
     }
 }
