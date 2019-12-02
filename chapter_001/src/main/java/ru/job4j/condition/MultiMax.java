@@ -3,14 +3,14 @@ package ru.job4j.condition;
 public class MultiMax {
     public int max(int first, int second, int third) {
 
+        int result = first;
         if (first > second && first > third) {
-            return first;
-        }
-        if (second > first && second > third) {
-            return second;
+            result = first;
+        } else if (second > first && second > third) {
+            result = second;
         } else if (third > first && third > second) {
-            return third;
+            result = third;
         }
-        return first;
+        return result;
     }
 }
