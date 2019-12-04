@@ -19,7 +19,7 @@ public class SqMaxTest {
 
     @Test
     public void whenForthMax3() {
-        int result = SqMax.max(5,6,9,4);
-        assertThat(result,is(9));
+        int result = SqMax.max(8,6,13,4);
+        assertThat(result,is(13));
     }
 }
