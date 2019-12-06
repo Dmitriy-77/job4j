@@ -1,3 +1,11 @@
+/**
+ * Calculator
+ * @author Dmitriy Dmitriev
+ * version 1.0
+ * sience 06.12.2019
+ *
+ */
+
 package ru.job4j.calculator;
 
 public class Calculator {
@@ -18,7 +26,12 @@ public class Calculator {
         System.out.println(first + "-" + second + " = " + result);
     }
 
-
+    /**
+     * main
+     * @param args
+     * @author 1.0
+     *
+     */
     public static void main(String[] args) {
         add(1, 1);
         div(4,2);
