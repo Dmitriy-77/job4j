@@ -10,7 +10,8 @@ public class Matrix {
             System.out.println("");
         }
         return table;
-    }
 
+    }
+    Object object = new Object();
 
 }
