@@ -9,11 +9,11 @@ package ru.job4j.array;
 public class ArrayChar {
 
     public static boolean startsWith(char[] word, char[] pref) {
-        boolean result = false;
+        boolean result = true;
         for(int i = 0; i < pref.length; i++) {
-            result = false;
-            if(pref[i] == word[i]) {
-                result = true;
+            if(pref[i] != word[i]) {
+                result = false;
+                break;
             }
         }
         return result;
